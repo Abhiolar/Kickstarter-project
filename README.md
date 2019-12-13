@@ -7,3 +7,5 @@ This is a all or nothing approach which means if you do not realise your goal am
 
 
 ## DELIVERABLES
+
+The main aim of this project is to 
