@@ -75,6 +75,13 @@ def best_parameters_finder(X_train, X_test, y_train, y_test, model, param_grid, 
     return fpr, tpr, thresholds
 
 
+def optimal_threshold(fpr,tpr,thresholds):
+    fpr_cv2 = 3*fpr_cv1
+    j_scores = tpr-fpr
+    j_ordered = sorted(zip(j_scores,thresholds))
+    return j_ordered[-1][1]
+
+
 def graph_tree_plot(model, X_train):
     dot_data = StringIO()
     export_graphviz(model, out_file=dot_data,  
