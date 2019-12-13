@@ -48,7 +48,7 @@ Building a Baseline Logistic Regression model, the train score is 0.708 and test
 
 Using more advanced classifier models such as Decision trees and Random Forest, we used the GridSerachCV to best parameters that gives the best results. None of the model overfits and the best model with Area under the curve evaluation metric, the bigger the value the more the model predicts True positive cases. The value was 0.721.
 
-The optimal threshold calculated to decrease the fpr which is alpha as we want to decrease the number of false positives rate  in our model prediction is 0.66.
+The optimal threshold calculated to decrease the fpr which is alpha as we want to decrease the number of false positives rate  in our model prediction is 0.64.
 
 ## CONCLUSION -
 
