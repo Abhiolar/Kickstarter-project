@@ -52,7 +52,7 @@ The optimal threshold calculated to decrease the fpr which is alpha as we want t
 
 ## CONCLUSION -
 
-It is relevant to our clients that the model tends towards increasing alpha to penalise the false positive predictions.
+It is relevant to our clients that the model tends towards increasing alpha to penalise the false positive predictions. Recommendations to the business is to focus on more projects in the Dance and Theatre catergories, look for project title words such as Album, Record and CD. To get the best model for their business case, tune optimal threshold to 0.64
 
 
 
